@@ -1,0 +1,84 @@
+{
+  "Factory": {
+    "constructor": {
+      "signature": "constructor(bytes32)",
+      "arguments": [
+        "bytes32"
+      ]
+    },
+    "functions": [
+      {
+        "name": "register",
+        "signature": "register()",
+        "arguments": []
+      },
+      {
+        "name": "trade",
+        "signature": "trade(ERC20,ERC20,uint256)",
+        "arguments": [
+          "ERC20",
+          "ERC20",
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "exchangeCodehash",
+        "signature": "exchangeCodehash()",
+        "arguments": []
+      },
+      {
+        "name": "exchanges",
+        "signature": "exchanges(address)",
+        "arguments": [
+          "address"
+        ]
+      }
+    ]
+  },
+  "Exchange": {
+    "constructor": {
+      "signature": "constructor(ERC20,Factory)",
+      "arguments": [
+        "ERC20",
+        "Factory"
+      ]
+    },
+    "functions": [
+      {
+        "name": "initialize",
+        "signature": "initialize()",
+        "arguments": []
+      },
+      {
+        "name": "receiveToken",
+        "signature": "receiveToken(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "transferToken",
+        "signature": "transferToken(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "token",
+        "signature": "token()",
+        "arguments": []
+      },
+      {
+        "name": "factory",
+        "signature": "factory()",
+        "arguments": []
+      }
+    ]
+  }
+}

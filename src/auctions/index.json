@@ -1,0 +1,93 @@
+{
+  "BlindAuction": {
+    "constructor": {
+      "signature": "constructor(address,uint256,uint256)",
+      "arguments": [
+        "address",
+        "uint256"
+      ]
+    },
+    "functions": [
+      {
+        "name": "bid",
+        "signature": "bid(bytes32)",
+        "arguments": [
+          "bytes32"
+        ]
+      },
+      {
+        "name": "reveal",
+        "signature": "reveal(uint128,uint256[128],bool[128],bytes32[128])",
+        "arguments": [
+          "uint128",
+          "uint256[128]",
+          "bool[128]",
+          "bytes32[128]"
+        ]
+      },
+      {
+        "name": "withdraw",
+        "signature": "withdraw()",
+        "arguments": []
+      },
+      {
+        "name": "auctionEnd",
+        "signature": "auctionEnd()",
+        "arguments": []
+      }
+    ],
+    "views": [
+      {
+        "name": "beneficiary",
+        "signature": "beneficiary()",
+        "arguments": []
+      },
+      {
+        "name": "biddingEnd",
+        "signature": "biddingEnd()",
+        "arguments": []
+      },
+      {
+        "name": "revealEnd",
+        "signature": "revealEnd()",
+        "arguments": []
+      },
+      {
+        "name": "ended",
+        "signature": "ended()",
+        "arguments": []
+      },
+      {
+        "name": "highestBid",
+        "signature": "highestBid()",
+        "arguments": []
+      },
+      {
+        "name": "highestBidder",
+        "signature": "highestBidder()",
+        "arguments": []
+      },
+      {
+        "name": "bids",
+        "signature": "bids(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "bidCounts",
+        "signature": "bidCounts(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "pendingReturns",
+        "signature": "pendingReturns(address)",
+        "arguments": [
+          "address"
+        ]
+      }
+    ]
+  }
+}
