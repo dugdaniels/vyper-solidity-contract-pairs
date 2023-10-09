@@ -1,0 +1,62 @@
+{
+  "BlindAuction": {
+    "constructor": {
+      "signature": "constructor()",
+      "arguments": []
+    },
+    "functions": [
+      {
+        "name": "initiate",
+        "signature": "initiate(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "ethToTokens",
+        "signature": "ethToTokens()",
+        "arguments": []
+      },
+      {
+        "name": "tokensToEth",
+        "signature": "tokensToEth(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "ownerWithdraw",
+        "signature": "ownerWithdraw()",
+        "arguments": []
+      }
+    ],
+    "views": [
+      {
+        "name": "totalEthQty",
+        "signature": "totalEthQty()",
+        "arguments": []
+      },
+      {
+        "name": "totalTokenQty",
+        "signature": "totalTokenQty()",
+        "arguments": []
+      },
+      {
+        "name": "invariant",
+        "signature": "invariant()",
+        "arguments": []
+      },
+      {
+        "name": "tokenAddress",
+        "signature": "tokenAddress()",
+        "arguments": []
+      },
+      {
+        "name": "owner",
+        "signature": "owner()",
+        "arguments": []
+      }
+    ]
+  }
+}
