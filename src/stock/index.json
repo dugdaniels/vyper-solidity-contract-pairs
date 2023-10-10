@@ -1,0 +1,92 @@
+{
+  "BlindAuction": {
+    "constructor": {
+      "signature": "constructor(address,uint256)",
+      "arguments": [
+        "address",
+        "uint256"
+      ]
+    },
+    "functions": [
+      {
+        "name": "buyStock",
+        "signature": "buyStock()",
+        "arguments": []
+      },
+      {
+        "name": "sellStock",
+        "signature": "sellStock(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "transferStock",
+        "signature": "transferStock(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "payBill",
+        "signature": "payBill(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "company",
+        "signature": "company()",
+        "arguments": []
+      },
+      {
+        "name": "totalShares",
+        "signature": "totalShares()",
+        "arguments": []
+      },
+      {
+        "name": "price",
+        "signature": "price()",
+        "arguments": []
+      },
+      {
+        "name": "holdings",
+        "signature": "holdings(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "stockAvailable",
+        "signature": "stockAvailable()",
+        "arguments": []
+      },
+      {
+        "name": "getHolding",
+        "signature": "getHolding(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "cash",
+        "signature": "cash()",
+        "arguments": []
+      },
+      {
+        "name": "debt",
+        "signature": "debt()",
+        "arguments": []
+      },
+      {
+        "name": "worth",
+        "signature": "worth()",
+        "arguments": []
+      }
+    ]
+  }
+}
