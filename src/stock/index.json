@@ -1,5 +1,5 @@
 {
-  "BlindAuction": {
+  "Company": {
     "constructor": {
       "signature": "constructor(address,uint256)",
       "arguments": [

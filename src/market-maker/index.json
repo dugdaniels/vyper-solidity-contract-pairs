@@ -1,5 +1,5 @@
 {
-  "BlindAuction": {
+  "OnChainMarketMaker": {
     "constructor": {
       "signature": "constructor()",
       "arguments": []
