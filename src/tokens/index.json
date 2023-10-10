@@ -1,4 +1,102 @@
 {
+  "ERC20": {
+    "constructor": {
+      "signature": "constructor(string,string,uint8,uint256)",
+      "arguments": [
+        "string",
+        "string",
+        "uint8",
+        "uint256"
+      ]
+    },
+    "functions": [
+      {
+        "name": "transfer",
+        "signature": "transfer(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "transferFrom",
+        "signature": "transferFrom(address,address,uint256)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "approve",
+        "signature": "approve(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "mint",
+        "signature": "mint(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "burn",
+        "signature": "burn(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "burnFrom",
+        "signature": "burnFrom(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "name",
+        "signature": "name()",
+        "arguments": []
+      },
+      {
+        "name": "symbol",
+        "signature": "symbol()",
+        "arguments": []
+      },
+      {
+        "name": "decimals",
+        "signature": "decimals()",
+        "arguments": []
+      },
+      {
+        "name": "balanceOf",
+        "signature": "balanceOf(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "allowance",
+        "signature": "allowance(address,address)",
+        "arguments": [
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "totalSupply",
+        "signature": "totalSupply()",
+        "arguments": []
+      }
+    ]
+  },
   "ERC1155ownable": {
     "constructor": {
       "signature": "constructor(string,string,string,string)",
