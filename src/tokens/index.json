@@ -97,6 +97,119 @@
       }
     ]
   },
+  "ERC721": {
+    "constructor": {
+      "signature": "constructor()",
+      "arguments": []
+    },
+    "functions": [
+      {
+        "name": "transferFrom",
+        "signature": "transferFrom(address,address,uint256)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "safeTransferFrom",
+        "signature": "safeTransferFrom(address,address,uint256,bytes)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256",
+          "bytes"
+        ]
+      },
+      {
+        "name": "approve",
+        "signature": "approve(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "setApprovalForAll",
+        "signature": "setApprovalForAll(address,bool)",
+        "arguments": [
+          "address",
+          "bool"
+        ]
+      },
+      {
+        "name": "mint",
+        "signature": "mint(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "burn",
+        "signature": "burn(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "minter",
+        "signature": "minter()",
+        "arguments": []
+      },
+      {
+        "name": "baseURL",
+        "signature": "baseURL()",
+        "arguments": []
+      },
+      {
+        "name": "supportsInterface",
+        "signature": "supportsInterface(bytes4)",
+        "arguments": [
+          "bytes4"
+        ]
+      },
+      {
+        "name": "balanceOf",
+        "signature": "balanceOf(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "ownerOf",
+        "signature": "ownerOf(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "getApproved",
+        "signature": "getApproved(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "isApprovedForAll",
+        "signature": "isApprovedForAll(address,address)",
+        "arguments": [
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "tokenURI",
+        "signature": "tokenURI(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      }
+    ]
+  },
   "ERC1155ownable": {
     "constructor": {
       "signature": "constructor(string,string,string,string)",
