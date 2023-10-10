@@ -1,0 +1,52 @@
+{
+  "BlindAuction": {
+    "constructor": {
+      "signature": "constructor()",
+      "arguments": []
+    },
+    "functions": [
+      {
+        "name": "abort",
+        "signature": "abort()",
+        "arguments": []
+      },
+      {
+        "name": "purchase",
+        "signature": "purchase()",
+        "arguments": []
+      },
+      {
+        "name": "received",
+        "signature": "received()",
+        "arguments": []
+      }
+    ],
+    "views": [
+      {
+        "name": "value",
+        "signature": "value()",
+        "arguments": []
+      },
+      {
+        "name": "seller",
+        "signature": "seller()",
+        "arguments": []
+      },
+      {
+        "name": "buyer",
+        "signature": "buyer()",
+        "arguments": []
+      },
+      {
+        "name": "unlocked",
+        "signature": "unlocked()",
+        "arguments": []
+      },
+      {
+        "name": "ended",
+        "signature": "ended()",
+        "arguments": []
+      }
+    ]
+  }
+}
