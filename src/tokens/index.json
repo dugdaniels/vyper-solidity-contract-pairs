@@ -1,0 +1,193 @@
+{
+  "ERC1155ownable": {
+    "constructor": {
+      "signature": "constructor(string,string,string,string)",
+      "arguments": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    "functions": [
+      {
+        "name": "pause",
+        "signature": "pause()",
+        "arguments": []
+      },
+      {
+        "name": "unpause",
+        "signature": "unpause()",
+        "arguments": []
+      },
+      {
+        "name": "transferOwnership",
+        "signature": "transferOwnership(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "renounceOwnership",
+        "signature": "renounceOwnership()",
+        "arguments": []
+      },
+      {
+        "name": "mint",
+        "signature": "mint(address,uint256,uint256)",
+        "arguments": [
+          "address",
+          "uint256",
+          "uint256"
+        ]
+      },
+      {
+        "name": "mintBatch",
+        "signature": "mintBatch(address,uint256[],uint256[])",
+        "arguments": [
+          "address",
+          "uint256[]",
+          "uint256[]"
+        ]
+      },
+      {
+        "name": "burn",
+        "signature": "burn(uint256,uint256)",
+        "arguments": [
+          "uint256",
+          "uint256"
+        ]
+      },
+      {
+        "name": "burnBatch",
+        "signature": "burnBatch(uint256[],uint256[])",
+        "arguments": [
+          "uint256[]",
+          "uint256[]"
+        ]
+      },
+      {
+        "name": "setApprovalForAll",
+        "signature": "setApprovalForAll(address,address,bool)",
+        "arguments": [
+          "address",
+          "address",
+          "bool"
+        ]
+      },
+      {
+        "name": "safeTransferFrom",
+        "signature": "safeTransferFrom(address,address,uint256,uint256,bytes)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256",
+          "uint256",
+          "bytes"
+        ]
+      },
+      {
+        "name": "safeBatchTransferFrom",
+        "signature": "safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256[]",
+          "uint256[]",
+          "bytes"
+        ]
+      },
+      {
+        "name": "setURI",
+        "signature": "setURI(string)",
+        "arguments": [
+          "string"
+        ]
+      },
+      {
+        "name": "toggleDynUri",
+        "signature": "toggleDynUri(bool)",
+        "arguments": [
+          "bool"
+        ]
+      },
+      {
+        "name": "setContractURI",
+        "signature": "setContractURI(string)",
+        "arguments": [
+          "string"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "dynamicUri",
+        "signature": "dynamicUri()",
+        "arguments": []
+      },
+      {
+        "name": "owner",
+        "signature": "owner()",
+        "arguments": []
+      },
+      {
+        "name": "paused",
+        "signature": "paused()",
+        "arguments": []
+      },
+      {
+        "name": "contractURI",
+        "signature": "contractURI()",
+        "arguments": []
+      },
+      {
+        "name": "name",
+        "signature": "name()",
+        "arguments": []
+      },
+      {
+        "name": "symbol",
+        "signature": "symbol()",
+        "arguments": []
+      },
+      {
+        "name": "balanceOf",
+        "signature": "balanceOf(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "isApprovedForAll",
+        "signature": "isApprovedForAll(address,address)",
+        "arguments": [
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "balanceOfBatch",
+        "signature": "balanceOfBatch(address[],uint256[])",
+        "arguments": [
+          "address[]",
+          "uint256[]"
+        ]
+      },
+      {
+        "name": "uri",
+        "signature": "uri(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "supportsInterface",
+        "signature": "supportsInterface(bytes4)",
+        "arguments": [
+          "bytes4"
+        ]
+      }
+    ]
+  }
+}
