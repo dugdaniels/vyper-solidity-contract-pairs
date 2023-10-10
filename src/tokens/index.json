@@ -287,5 +287,198 @@
         ]
       }
     ]
+  },
+  "ERC4626": {
+    "constructor": {
+      "signature": "constructor(address)",
+      "arguments": [
+        "address"
+      ]
+    },
+    "functions": [
+      {
+        "name": "transfer",
+        "signature": "transfer(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "approve",
+        "signature": "approve(address,uint256)",
+        "arguments": [
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "transferFrom",
+        "signature": "transferFrom(address,address,uint256)",
+        "arguments": [
+          "address",
+          "address",
+          "uint256"
+        ]
+      },
+      {
+        "name": "deposit",
+        "signature": "deposit(uint256, address)",
+        "arguments": [
+          "uint256",
+          "address"
+        ]
+      },
+      {
+        "name": "mint",
+        "signature": "mint(uint256, address)",
+        "arguments": [
+          "uint256",
+          "address"
+        ]
+      },
+      {
+        "name": "withdraw",
+        "signature": "withdraw(uint256, address, address)",
+        "arguments": [
+          "uint256",
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "redeem",
+        "signature": "redeem(uint256, address, address)",
+        "arguments": [
+          "uint256",
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "DEBUG_steal_tokens",
+        "signature": "DEBUG_steal_tokens(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "totalSupply",
+        "signature": "totalSupply()",
+        "arguments": []
+      },
+      {
+        "name": "balanceOf",
+        "signature": "balanceOf(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "allowance",
+        "signature": "allowance(address,address)",
+        "arguments": [
+          "address",
+          "address"
+        ]
+      },
+      {
+        "name": "asset",
+        "signature": "asset()",
+        "arguments": []
+      },
+      {
+        "name": "name",
+        "signature": "name()",
+        "arguments": []
+      },
+      {
+        "name": "symbol",
+        "signature": "symbol()",
+        "arguments": []
+      },
+      {
+        "name": "decimals",
+        "signature": "decimals()",
+        "arguments": []
+      },
+      {
+        "name": "totalAssets",
+        "signature": "totalAssets()",
+        "arguments": []
+      },
+      {
+        "name": "convertToAssets",
+        "signature": "convertToAssets(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "convertToShares",
+        "signature": "convertToShares(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "maxDeposit",
+        "signature": "maxDeposit(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "previewDeposit",
+        "signature": "previewDeposit(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "maxMint",
+        "signature": "maxMint(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "previewMint",
+        "signature": "previewMint(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "maxWithdraw",
+        "signature": "maxWithdraw(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "previewWithdraw",
+        "signature": "previewWithdraw(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      },
+      {
+        "name": "maxRedeem",
+        "signature": "maxRedeem(address)",
+        "arguments": [
+          "address"
+        ]
+      },
+      {
+        "name": "previewRedeem",
+        "signature": "previewRedeem(uint256)",
+        "arguments": [
+          "uint256"
+        ]
+      }
+    ]
   }
 }
