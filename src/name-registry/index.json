@@ -1,0 +1,34 @@
+{
+  "BlindAuction": {
+    "constructor": {
+      "signature": "constructor()",
+      "arguments": []
+    },
+    "functions": [
+      {
+        "name": "register",
+        "signature": "register(bytes,address)",
+        "arguments": [
+          "bytes",
+          "address"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "lookup",
+        "signature": "lookup(bytes)",
+        "arguments": [
+          "bytes"
+        ]
+      },
+      {
+        "name": "registry",
+        "signature": "lookup(bytes)",
+        "arguments": [
+          "bytes"
+        ]
+      }
+    ]
+  }
+}

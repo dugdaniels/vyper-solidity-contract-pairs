@@ -14,10 +14,10 @@
       },
       {
         "name": "trade",
-        "signature": "trade(ERC20,ERC20,uint256)",
+        "signature": "trade(address,address,uint256)",
         "arguments": [
-          "ERC20",
-          "ERC20",
+          "address",
+          "address",
           "uint256"
         ]
       }
@@ -41,7 +41,7 @@
     "constructor": {
       "signature": "constructor(ERC20,Factory)",
       "arguments": [
-        "ERC20",
+        "address",
         "Factory"
       ]
     },
