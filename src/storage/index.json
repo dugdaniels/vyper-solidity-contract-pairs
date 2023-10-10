@@ -1,0 +1,55 @@
+{
+  "Storage": {
+    "constructor": {
+      "signature": "constructor(uint128)",
+      "arguments": [
+        "uint128"
+      ]
+    },
+    "functions": [
+      {
+        "name": "set",
+        "signature": "set(uint128)",
+        "arguments": [
+          "uint128"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "storedData",
+        "signature": "storedData()",
+        "arguments": []
+      }
+    ]
+  },
+  "AdvancedStorage": {
+    "constructor": {
+      "signature": "constructor(uint128)",
+      "arguments": [
+        "uint128"
+      ]
+    },
+    "functions": [
+      {
+        "name": "set",
+        "signature": "set(uint128)",
+        "arguments": [
+          "uint128"
+        ]
+      },
+      {
+        "name": "reset",
+        "signature": "reset()",
+        "arguments": []
+      }
+    ],
+    "views": [
+      {
+        "name": "storedData",
+        "signature": "storedData()",
+        "arguments": []
+      }
+    ]
+  }
+}
